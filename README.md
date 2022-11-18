@@ -18,4 +18,3 @@
 
 
 ![1111](https://user-images.githubusercontent.com/81868044/202742289-2af7b29f-0601-4bee-9517-1e5402b64c86.png)
-<h5> Interfaz de la contraseña generada</h5> <br>

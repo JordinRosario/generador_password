@@ -12,13 +12,13 @@ def about(request):
 def password(request):
     
     """ Obtiene la solicitud que manda el usuario """
-    length =request.GET.get('length')
-    
-    
+    length =int(request.GET.get('soli'))
+
+
     """ Ibten una serie de acaracteres aleatorio """
-    characters =list('abcdefghijklmnopqrstuwxyz1234567890!@#$%^&*()_+-')
+    characters =list('abcdefghijklmnopqrstuwxyz')
     generated_password = ''
-    for char in range(10):
+    for char in range(length):
         generated_password+= random.choice(characters)
     
     
